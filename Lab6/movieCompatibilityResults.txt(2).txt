@@ -1,0 +1,26 @@
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+              -+- Movie Compatibility -+-                    
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Dear errett* According to the game results, our movie compatibility is strong and negative
+The correlation coefficient (r) between our tastes in movies is-1.0000000357356278
+The strength of the association in movie compatibility is
+determined by the absolute value of the correlation coefficient.
+For a strong association: 0.8 < |r| < 1.0 
+For a moderately strong association: 0.5 < |r| < 0.8
+For a weak association: 0.0 < |r| < 0.5 
+* Here is a scatter plot of our results: 
+
+x                            
+   x                         
+      x                      
+         x                   
+            x                
+               x             
+                  x          
+                     x       
+                        x    
+                           x 
+
+Thank you for playing the game. See you at the movies!
+ Sincerely,
+Vishwas

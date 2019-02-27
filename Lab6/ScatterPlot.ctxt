@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ScatterPlot
+comment0.text=\r\n\ @author\ (your\ name)\ \r\n\ @version\ (date)\r\n
+comment1.params=v1\ v2
+comment1.target=ScatterPlot(int[],\ int[])
+comment2.params=
+comment2.target=void\ createScatterplot()
+comment3.params=
+comment3.target=void\ calculateCorrelationCoefficient()
+comment4.params=
+comment4.target=double\ getCorrelationCoefficient()
+comment5.params=
+comment5.target=void\ setDescription()
+comment6.params=
+comment6.target=java.lang.String\ getDescription()
+comment7.params=
+comment7.target=java.lang.String[][]\ getScatterPlot()
+numComments=8

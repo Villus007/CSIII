@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MyStack
+comment1.params=
+comment1.target=MyStack()
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment3.params=item
+comment3.target=void\ push(java.lang.Object)
+comment3.text=\r\n\tAdd\ item\ to\ the\ top\ of\ the\ Stack\r\n
+comment4.params=
+comment4.target=java.lang.Object\ pop()
+comment4.text=\r\n\tRemove\ the\ Object\ from\ the\ top\ of\ the\ Stack\ and\ return\ it\r\n\tIf\ the\ Stack\ is\ empty,\ return\ null\r\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\r\n\tReturn\ true\ is\ this\ Stack\ is\ empty\r\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\r\n\tReturn\ the\ number\ of\ Objects\ that\ are\ in\ this\ Stack\r\n
+numComments=7

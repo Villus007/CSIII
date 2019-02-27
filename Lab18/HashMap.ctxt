@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=HashMap
+comment1.params=
+comment1.target=HashMap()
+comment10.params=key
+comment10.target=java.lang.Object\ remove(java.lang.Object)
+comment10.text=\r\n\tRemove\ the\ association\ for\ the\ specified\ key\ from\ this\ map.\r\n\tReturn\ the\ value\ that\ was\ associated\ with\ the\ specified\ key\r\n\tOr\ return\ null\ if\ no\ value\ was\ associated\ with\ the\ key.\r\n\tPrecondition\:\ key\ \!\=\ null\r\n
+comment11.params=
+comment11.target=java.util.List\ values()
+comment11.text=\r\n\tReturn\ a\ List<V>\ of\ the\ values\ that\ are\ stored\ in\ this\ map\r\n
+comment12.params=
+comment12.target=Set\ keySet()
+comment12.text=\r\n\tReturn\ a\ Set<E>\ of\ the\ keys\ that\ have\ associations\ in\ this\ map\r\n
+comment2.params=n
+comment2.target=HashMap(int)
+comment3.params=key
+comment3.target=int\ getIndex(java.lang.Object)
+comment3.text=\r\n\tHelper\ Method\:\ Calculate\ the\ index\ that\ an\ object\ will\ be\ stored\ in\ an\ array\ using\ its\ hashCode\r\n\r\n\tReturns\ the\ index\ where\ key\ belongs\ in\ the\ instance\ variable\ array\ using\ the\ key's\ hashCode\r\n\tBecareful\ about\ objects\ that\ have\ a\ negative\ hashCode\!\ Remember,\ you\ can't\ have\ a\ negative\ index\!\r\n
+comment4.params=key
+comment4.target=boolean\ containsKey(java.lang.Object)
+comment4.text=\r\n\tReturn\ true\ if\ this\ map\ contains\ the\ specified\ key\r\n\tPrecondition\:\ key\ \!\=\ null\r\n
+comment5.params=value
+comment5.target=boolean\ containsValue(java.lang.Object)
+comment5.text=\r\n\tReturn\ true\ if\ this\ map\ contins\ the\ specified\ value\r\n\tPrecondition\:\ value\ \!\=\ null\r\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\r\n\tReturn\ true\ is\ this\ map\ contains\ no\ Nodes\r\n
+comment7.params=
+comment7.target=int\ size()
+comment7.text=\r\n\tReturn\ the\ number\ of\ Nodes\ this\ map\ contains\r\n
+comment8.params=key
+comment8.target=java.lang.Object\ get(java.lang.Object)
+comment8.text=\r\n\tReturn\ the\ value\ of\ the\ Node\ that\ has\ the\ specified\ key\r\n\tIf\ there\ is\ no\ Node\ with\ the\ specified\ key,\ then\ return\ null\r\n
+comment9.params=key\ value
+comment9.target=java.lang.Object\ put(java.lang.Object,\ java.lang.Object)
+comment9.text=\r\n\tAssociate\ the\ specified\ value\ with\ the\ specified\ key\r\n\tIf\ the\ map\ already\ contains\ the\ specified\ key,\ the\ replace\ \r\n\tthe\ value\ of\ that\ key\ and\ return\ the\ original\ value.\r\n\tOtherwise\ add\ a\ new\ Node\ to\ the\ map\ and\ return\ null.\r\n\tPrecondition\:\ key\ \!\=\ null\ &&\ value\ \!\=\ null\r\n
+numComments=13

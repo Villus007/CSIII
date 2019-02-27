@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=JavaLinkedList
+comment1.params=
+comment1.target=JavaLinkedList()
+comment1.text=\r\n\ \ Default\ Constructor\r\n\ \ Create\ a\ new\ MyLinkedList\ of\ Integers\r\n
+comment2.params=nums
+comment2.target=JavaLinkedList(int[])
+comment2.text=\r\n\ \ Create\ a\ new\ MyLinkedList\ of\ Integers\ from\ the\ array\r\n
+comment3.params=
+comment3.target=double\ getSum()
+comment3.text=\r\n\ \ Return\ the\ sum\ of\ all\ the\ items\ in\ the\ list\r\n
+comment4.params=
+comment4.target=double\ getMean()
+comment4.text=\r\n\ \ Return\ the\ mean\ of\ all\ the\ items\ in\ the\ list\r\n
+comment5.params=
+comment5.target=double\ getMedian()
+comment6.params=
+comment6.target=int\ getMode()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

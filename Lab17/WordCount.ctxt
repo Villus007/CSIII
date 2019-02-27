@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=WordCount
+comment1.params=filename
+comment1.target=WordCount(java.lang.String)
+comment2.params=word
+comment2.target=int\ getWordCount(java.lang.String)
+comment2.text=\r\n\tReturn\ the\ number\ of\ times\ the\ specified\ word\ was\ used\ in\ the\ document\r\n\tDon't\ forget\ to\ sanitize\ word\!\r\n
+comment3.params=
+comment3.target=Set\ getDistinctWords()
+comment3.text=\r\n\tReturn\ a\ Set\ containing\ all\ of\ the\ words\ that\ were\ used\ in\ this\ document\r\n
+comment4.params=
+comment4.target=int\ countDistinctWords()
+comment4.text=\r\n\tReturn\ number\ of\ different\ words\ that\ were\ used\ in\ this\ document\r\n
+comment5.params=text
+comment5.target=Map\ countWords(java.lang.String)
+comment5.text=\r\n\tReturn\ a\ Mapping\ of\ Word->Occurances\ in\ the\ specified\ text\ String\r\n\r\n\tThis\ method\ can\ be\ used\ like\ this\:\r\n\r\n\t\tMap<String,\ Integer>\ countAllWords\ \=\ WordCount.countWords("one\ ring\ to\ rule\ them\ all\ one\ ring\ to\ find\ them");\r\n\t\tInteger\ countRing\ \=\ countAllWords.get("ring");\r\n\t\tSystem.out.println(countRing);\ //this\ should\ output\ 2\ because\ "ring"\ appears\ twice\ in\ the\ String\r\n
+comment6.params=filename
+comment6.target=java.lang.String\ readFile(java.lang.String)
+comment6.text=\r\n\tReturn\ a\ string\ that\ contains\ all\ of\ the\ text\ stored\ in\ the\ spefied\ file\r\n\tEach\ line\ of\ the\ file\ will\ be\ separated\ by\ a\ line\ break\ (\\n)\ in\ the\ returned\ String\r\n\tIf\ the\ file\ does\ not\ exist,\ then\ return\ null\r\n\tIf\ the\ file\ is\ empty,\ then\ return\ the\ empty\ String\r\n
+comment7.params=str
+comment7.target=java.lang.String\ sanitize(java.lang.String)
+comment7.text=\r\n\tReturn\ a\ sanitized\ version\ of\ the\ input\ string.\r\n\r\n\r\n\tThis\ method\ should\ remove\ all\ characters\ from\ str\ that\ are\ not\ letters\ or\ a\ single\ quote\r\n\tIt\ should\ also\ make\ the\ the\ string\ lower\ case.\r\n\r\n\tExamples\:\r\n\t\tMr.\t\t\t\=>\t\t\tmr\r\n\t\tHello\t\t\=>\t\t\thello\r\n\t\tthey're\t\t\=>\t\t\tthey're\r\n\t\t"Hello"\t\t\=>\t\t\thello\r\n\t\thello\!\t\t\=>\t\t\thello\r\n\t\thowever,\t\=>\t\t\thowever\r\n\t\tke$ha\t\t\=>\t\t\tkeha\r\n\t\t\:-)\t\t\t\=>\t\t\t\t\t(empty\ string)\r\n\t\tmays'\t\t\=>\t\t\tmays'\r\n\t\t'ere\t\t\=>\t\t\t'ere\r\n\t\tjump-scare\t\=>\t\t\tjumpscare\r\n
+numComments=8

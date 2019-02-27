@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Report
+comment1.params=p1\ p2
+comment1.target=Report(Person,\ Person)
+comment2.params=fileName
+comment2.target=void\ createReport(java.lang.String)
+comment2.text=\r\n\ Creates\ the\ report\ and\ saves\ it\ to\ 'filename'.\ \r\n
+comment3.params=fileName\ s\ append
+comment3.target=void\ writeToFile(java.lang.String,\ java.lang.String,\ boolean)
+comment3.text=\r\n\ writeToFile\ method\r\n\ \r\n\ Write\ the\ string\ 's'\ and\ saves\ it\ to\ 'filename'.\ \r\n\ If\ append\ is\ 'true',\ it\ will\ append\ to\ the\ file\ 'fileName'.\r\n\ If\ append\ is\ 'false',\ it\ will\ write\ over\ the\ file\ 'fileName'.\r\n
+numComments=4

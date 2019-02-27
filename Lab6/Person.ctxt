@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Person
+comment1.params=
+comment1.target=Person()
+comment2.params=b
+comment2.target=Person(boolean)
+comment3.params=b
+comment3.target=void\ setup(boolean)
+comment4.params=
+comment4.target=void\ askName()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=n
+comment6.target=void\ setName(java.lang.String)
+comment7.params=
+comment7.target=MoviePreferences\ getMoviePreferences()
+comment8.params=m
+comment8.target=void\ setMoviePreferences(MoviePreferences)
+numComments=9
