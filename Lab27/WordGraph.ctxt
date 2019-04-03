@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WordGraph
+comment1.params=
+comment1.target=WordGraph()
+comment2.params=newWord
+comment2.target=void\ addWord(java.lang.String)
+comment2.text=\r\n\t"Sanatize"\ newWord\ by\ trimming\ extra\ spaces\ from\ the\ endges\ (use\ the\ trim()\ method)\r\n\tAdd\ the\ specified\ word\ to\ the\ graph.\r\n\tAdd\ an\ edge\ between\ lastWord\ and\ the\ newWord\r\n\tIncrement\ the\ weight\ between\ these\ nodes\ by\ 1\r\n\tSet\ lastWord\ to\ point\ to\ newWord\r\n
+comment3.params=str
+comment3.target=void\ processString(java.lang.String)
+comment3.text=\r\n\tProcess\ a\ string\ by\ splitting\ it\ on\ spaces\ (use\ the\ split()\ method)\r\n\tand\ calling\ addWord()\ on\ each\ word.\r\n
+comment4.params=filename
+comment4.target=void\ processFile(java.lang.String)
+comment4.text=\r\n\tProcess\ a\ file\ by\ reading\ each\ line\ from\ a\ file\ (using\ nextLine()\ method)\r\n\tand\ call\ the\ processString()\ method\ on\ it.\r\n
+comment5.params=
+comment5.target=WeightedGraph\ getGraph()
+comment5.text=\r\n\tGetter\ method\ for\ the\ weighted\ graph\ instance\ variable\r\n
+comment6.params=word
+comment6.target=boolean\ isEndWord(java.lang.String)
+numComments=7
